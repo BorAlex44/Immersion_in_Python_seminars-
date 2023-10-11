@@ -6,7 +6,7 @@ def renaming_files(
                    source_file_extension: str,
                    end_file_extension: str,
                    digits_serial_num: int = 3,
-                   len_original_name: list[int] = [1, 2],
+                   len_original_name: list[int] = (1, 2),
                    new_file_name: str = None,
                    path: str = None
                    ):
